@@ -1,0 +1,120 @@
+.Box-A {
+    width: 100vw;
+    height: 30vh;
+    background: gray;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.father1 {
+    width: 100vw;
+    height: 70vh;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+}
+
+.father2 {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.Box-F {
+    width: 20%;
+    line-height: 100%;
+    background-color: #1f83ff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.Box-B {
+    width: 100%;
+    height: 50%;
+    background-color: #007575;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.father3 {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Box-C, .Box-D, .Box-E {
+    width: 33%;
+    height: 100%;
+    background-color: #c07afd;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+}
+
+.border-all {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+    .Box-A {
+        height: 10vh;
+        transition: 500ms;
+        font-size: 50px;
+        color: cornsilk;
+    }
+
+    .father1 {
+        flex-direction: column;
+    }
+
+    .father2 {
+        height: 80vh;
+        width: 100vw;
+        transition: 500ms;
+    }
+
+    .Box-F {
+        height: 10vh;
+        width: 100vw;
+        transition: 500ms;
+        font-size: 50px;
+        color: cornsilk;
+    }
+
+    .Box-C, .Box-D, .Box-E {
+        height: 50%;
+        width: 20%;
+        transition: 500ms;
+        font-size: 50px;
+        color: cornsilk;
+
+    }
+
+    .Box-B {
+        transition: 500ms;
+        font-size: 50px;
+        color: cornsilk;
+    }
+
+    .father3 {
+        align-items: center;
+        transition: 500ms;
+    }
+}
